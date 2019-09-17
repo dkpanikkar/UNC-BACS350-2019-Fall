@@ -12,14 +12,13 @@
     $site_title = 'UNC BACS 350';
     $page_title = 'Superhero Gallery';
 
-    $card1 = render_card("Daredevil", "After getting blinded at a young age by radiactive waste he learned to use his other senses to be able to act as a lawyer during the day and be a vigilante at night");
-    $card2 = render_card("Black Panther", "King of the advanced society of Wakanda acting as the Black Panthar to protect his people");
-    //d3 = render_card("Wolverine, A Mutant who had adamantime infused into his bones given him the abillity to push his hones out of his skin like claws to fight");
+    $card1 = render_card("DareDevil", "Blinded at a young age by radioactive waste Matt Merdock works as a lawyer during the day and as the vigilante DareDevil at night");
+    $card2 = render_card("Black Panthar", "King of the advanced society of Wakanda usng his persona as Black Panther as both a symbol of peace for his people as well as protecting them from all sorts of danger");
 
     $content =  '
         <div class="container-fluid">
             <div class="row">
-                ' . $card1 . $card2 .3
+                ' . $card1 . $card2 . '
             </div>
         </div>
     ';
