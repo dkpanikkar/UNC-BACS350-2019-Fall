@@ -32,6 +32,9 @@
             <li>
                 <a href="project">Projects</a>
             </li>
+            <li>
+                <a href="skills">Skills</a>
+            </li>
         </ul>
     ';
 
