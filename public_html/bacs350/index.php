@@ -10,7 +10,7 @@
     
     $content = '
         <p> 
-            <img src="/bacs350/images/Devin_Panikkar.jpg" alt="Devin Panikkar"></img>
+            <img src="/bacs350/images/Devin_Panikkar.jpg" alt="Devin Panikkar" width="25%"></img>
         </p>
         <p>
             <a href="..">Home</a>
@@ -26,6 +26,9 @@
         </p>
         
         <ul>
+            <li>
+                <a href="https://shrinking-world.com/unc/bacs350">Sensei homepage</a>
+            </li>
             <li>
                 <a href="demo">Code Demos</a>
             </li>
