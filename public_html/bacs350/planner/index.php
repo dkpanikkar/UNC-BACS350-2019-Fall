@@ -8,5 +8,5 @@
 
 
     // Display the HTML in the page
-    echo render_page("Mark's Project Planner", "UNC BACS 350 - Brain App", $content);
+    echo render_page("Devin's Project Planner", "UNC BACS 350 - Brain App", $content);
 ?>
