@@ -29,6 +29,7 @@
             <li>
                 <a href="https://shrinking-world.com/unc/bacs350">Sensei homepage</a>
             </li>
+            
             <li>
                 <a href="demo">Code Demos</a>
             </li>
@@ -40,6 +41,15 @@
             </li>
             <li>
                 <a href="skills">Skills</a>
+            </li>
+            <li>
+                <a href="https://unco.instructure.com/courses/48080">Canvas"</a>
+            </li>
+             <li>
+                <a href="https://github.com/dkpanikkar/UNC-BACS350-2019-Fall">My GitHub Repo</a>
+            </li>
+             <li>
+                <a href="https://github.com/Mark-Seaman/UNC-BACS350-Demo">Instructor GitHub Repo</a>
             </li>
         </ul>
     ';
