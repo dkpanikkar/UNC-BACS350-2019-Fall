@@ -4,11 +4,11 @@ body {
 
 
 h1 {
-    color: #0E3D65;
+    color: #CD3210;
 }
 
 h2 {
-    color: #F6B018;
+    color: #5708A7;
 }
 
 hr {
@@ -23,7 +23,7 @@ img {
 
 pre {
     border: 1px solid #F6B018;
-    box-shadow: 2px 2px 5px grey;
+    box-shadow: 5px 5px 5px black;
     padding: 1em;
     margin: 2em;
 }
@@ -37,5 +37,5 @@ pre {
     padding: 10px;
     font-weight: bold;
     color: white;
-    background-color: #0E3D65;
+    background-color: #CD3210;
 }
