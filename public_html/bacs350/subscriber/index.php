@@ -18,6 +18,8 @@
     $list = render_subscriber_list($subscribers);
 
     echo $list;
+
+
     
 ?>
 
