@@ -8,6 +8,7 @@
 
     // Connect to the subscribers database at Bluehost
     require 'subscriber.php';
+    require 'views.php';
 
 
     // Get a list of subscribers records
