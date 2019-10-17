@@ -12,11 +12,11 @@
     // Connect to the subscribers database at Bluehost
     require 'subscriber.php';
     require 'views.php';
-    //require 'style.css';
+    
 
-    // Card with docs
+    // Card with subscribers
     $title = 'Subscriber List';
-    $body = $subscribers;
+    $body = $list;
     $card = render_card($title, $body);
     // Get a list of subscribers records
     $subscribers = query_subscribers($db);
