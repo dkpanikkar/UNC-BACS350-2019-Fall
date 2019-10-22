@@ -6,11 +6,11 @@
 
     $site_title = 'UNC BACS 350';
     
-    $page_title = "Devin's Homepage";
+    $page_title = "Devin Panikkar's Homepage";
     
     $content = '
         <p> 
-            <img src="/bacs350/images/Devin_Panikkar.jpg" alt="Devin Panikkar" width="25%"></img>
+            <img src="/bacs350/images/Devin_Panikkar.jpg" alt="Devin Panikkar" width="32%"></img>
         </p>
         <p>
             <a href="..">Home</a>
