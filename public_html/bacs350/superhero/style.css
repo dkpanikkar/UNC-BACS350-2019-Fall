@@ -2,56 +2,43 @@ body {
     padding: 2em;
 }
 
-header {
-    border: 5px solid #F6B018;
-    background-color: #0E3D65;
-    font-family: sans-serif;
-    padding: .5em;
+
+h1 {
+    color: #CD3210;
 }
 
-header a {
-    color: white;
+h2 {
+    color: #5708A7;
 }
 
-header a:hover {
-    color: #F6B018;
+hr {
+    border: 1px solid #F6B018;
+    width: 80%;
+    margin: 30px auto;
 }
 
-header h1 {
-    color: #F6B018;
-    border: none;
-    padding: 0;
-    margin: 20px 0;
-    box-shadow: none;
-    text-align: left;
+img {
+    border-radius: 20px;
 }
 
-header h2 {
-    color: white;
-    background-color: #0E3D65;
-    box-shadow: none;
-    text-align: left;
-    margin: 0;
-    padding: 0;
-
+pre {
+    border: 1px solid #F6B018;
+    box-shadow: 5px 5px 5px black;
+    padding: 1em;
+    margin: 2em;
 }
-
-header img {
-    float: right;
-    margin: 0;
-    padding: 0;
-}
-
 
 .card {
     margin: 20px;
     border: 1px solid #0E3D65;
     width: 40%;
+    float: left;
 }
 
 .card-header {
     padding: 10px;
     font-weight: bold;
     color: white;
-    background-color: #0E3D65;
+    background-color: #CD3210;
 }
+
