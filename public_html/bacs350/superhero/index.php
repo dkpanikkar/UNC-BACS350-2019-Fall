@@ -25,5 +25,5 @@
     $content = "$intro $add_button $list";
 
     // Show the page
-    echo render_page('UNC BACS 350', "Devin Panikkar's List Subscribers", $content);
+    echo render_page('UNC BACS 350', "Devin Panikkar's Superheroes List", $content);
 ?>
