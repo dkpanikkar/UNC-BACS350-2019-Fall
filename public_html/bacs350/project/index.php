@@ -38,6 +38,9 @@
             <li>
                 <a href="07">Project #7 - Superhero Database</a>
             </li>
+            <li>
+                <a href="08">Project #8 - Notes Database</a>
+            </li>
         </ul>
     ';
 
