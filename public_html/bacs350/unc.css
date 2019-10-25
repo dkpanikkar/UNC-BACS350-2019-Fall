@@ -23,17 +23,17 @@ footer {
 h1 {
     margin: 20px;
     padding: 30px;
-    color: #F6B018;
-    background-color: #0E3D65;
+    color: #87CEEB;
+    background-color: #CD3210;
     border: 5px solid #F6B018;
     text-align: center;
     box-shadow: 2px 2px 5px gray;
 }
 
 h2 {
-    color: #0E3D65;
+    color: #FFFFFF;
     background-color: #F6B018;
-    border: 2px solid #0E3D65;
+    border: 2px solid #CD3210;
     text-align: center;
     margin: 10px 20px;
     padding: 10px 20px;
@@ -47,22 +47,23 @@ h4 {
 }
 
 header {
-    border: 5px solid #F6B018;
-    background-color: #0E3D65;
+    border: 5px solid #000000;
+    background-color: #CD3210;
     font-family: sans-serif;
     padding: .5em;
 }
 
 header a {
     color: white;
+    background-color: #CD3210
 }
 
 header a:hover {
-    color: #F6B018;
+    color: #87CEEB;
 }
 
 header h1 {
-    color: #F6B018;
+    color: #87CEEB;
     border: none;
     padding: 0;
     margin: 20px 0;
@@ -72,7 +73,7 @@ header h1 {
 
 header h2 {
     color: white;
-    background-color: #0E3D65;
+    background-color: #CD3210;
     box-shadow: none;
     text-align: left;
     margin: 0;
