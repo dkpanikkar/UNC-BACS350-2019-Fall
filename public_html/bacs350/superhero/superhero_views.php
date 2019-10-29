@@ -8,8 +8,8 @@
         $title = 'Add Superhero';
         $body = '
             <form action="insert.php" method="get">
-                <p><label>Name:</label> &nbsp; <input type="text" name="name"></p>
-                <p><label>Also Known As:</label> &nbsp; <input type="text" name="aka"></p>
+                <p><label>Name:</label> &nbsp; <input type="text" name="hero_name"></p>
+                <p><label>Also Known As:</label> &nbsp; <input type="text" name="identity"></p>
                 <p><label>Photo:</label> &nbsp; <input type="text" name="image"></p>
                 <p><label>Description:</label> &nbsp; 
                 <textarea name="description">Text goes here.</textarea></p>
@@ -30,8 +30,8 @@
             $body = "
                 <table class='table table-hover'>
                     <tr><td>$photo</td></tr>
-                    <tr><td>Superhero:</td><td>$row[identity]</td></tr>
-                    <tr><td>Name:</td><td>$title</td></tr>
+                    <tr><td>Superhero:</td><td>$title</td></tr>
+                    <tr><td>Name:</td><td>$row[identity]</td></tr>
                     <tr><td>Notes:</td><td>$row[description]</td></tr>
                     <tr><td>Record $row[id]</td><td>$delete</td></tr>
                 </table>";
