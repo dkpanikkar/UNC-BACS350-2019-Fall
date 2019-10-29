@@ -7,12 +7,12 @@
 
 
     // Pick out the inputs
-    $name = filter_input(INPUT_GET, 'name');
-    $aka = filter_input(INPUT_GET, 'aka');
+    $name = filter_input(INPUT_GET, 'hero_name');
+    $identity = filter_input(INPUT_GET, 'identity');
     $image = filter_input(INPUT_GET, 'image');
     $description = filter_input(INPUT_GET, 'description');
 
-    if ($name == '' || $aka == '' || $image == '' || $description == '') {
+    if ($name == '' || $identity == '' || $image == '' || $description == '') {
         
         // Form view to add superhero
         $add_form = add_superhero_form();
@@ -30,7 +30,7 @@
     }
     else {
         // Add record and return to list
-        if (add_superhero ($db, $name, $aka, $image, $description))
+        if (add_superhero ($db, $name, $identity, $image, $description))
         {
             header("Location: index.php");
         };
