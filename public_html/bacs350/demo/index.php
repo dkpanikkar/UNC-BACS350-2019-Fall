@@ -6,10 +6,10 @@
 
     $site_title = 'UNC BACS 350';
     
-    $page_title = "Devin's Brain";
+    $page_title = "Mark's Demos";
     
     $content = '
-<p>
+        <p>
             <a href="..">Home</a>
         </p>
         <p> 
@@ -84,7 +84,28 @@
                 <a href="20">Demo #20 - CRUD Views</a>
             </li>
             <li>
-                <a href="21">Demo #21 - CRUD Views</a>
+                <a href="21">Demo #21 - Add Views</a>
+            </li>
+            <li>
+                <a href="22">Demo #22 - Edit Views</a>
+            </li>
+            <li>
+                <a href="23">Demo #23 - Page Logging</a>
+            </li>
+            <li>
+                <a href="24">Demo #24 - Review App</a>
+            </li>
+            <li>
+                <a href="25">Demo #25 - Avoid Page Caching</a>
+            </li>
+            <li>
+                <a href="26">Demo #26 - Page Template HTML</a>
+            </li>
+            <li>
+                <a href="27">Demo #27 - Component Templates</a>
+            </li>
+            <li>
+                <a href="28">Demo #28 - MVC Pattern</a>
             </li>
         </ul>
     ';
