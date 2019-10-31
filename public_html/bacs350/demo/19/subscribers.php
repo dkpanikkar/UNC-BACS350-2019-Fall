@@ -1,10 +1,13 @@
 <?php
 
     // Connect to Bluehost database 
-    function subscriber_database($dbname, $username, $password) {
+    function subscriber_database() {
         try {
             $port = '3306';
+            $dbname = 'devinpan_subscribers';
             $db_connect = "mysql:host=localhost:$port;dbname=$dbname";
+            $username = 'devinpan';
+            $password = 'Goldhill02-05';
             return new PDO($db_connect, $username, $password);
         } catch (PDOException $e) {
             $error_message = $e->getMessage();
@@ -31,60 +34,41 @@
 
 
     // Delete Database Record
-    function delete_subscriber($db, $email) {
-        try {
-            $query = "DELETE from subscribers WHERE email = :email";
+    function delete_subscriber($db, $id) {
+        $action = filter_input(INPUT_GET, 'action');
+        $id = filter_input(INPUT_GET, 'id');
+        if ($action == 'delete' and !empty($id)) {
+            $query = "DELETE from subscribers WHERE id = :id";
             $statement = $db->prepare($query);
-            $statement->bindValue(':email', $email);
+            $statement->bindValue(':id', $id);
             $statement->execute();
             $statement->closeCursor();
-        } catch (PDOException $e) {
-            $error_message = $e->getMessage();
-            echo "<p>Error: $error_message</p>";
-            die();
         }
     }
 
 
     // Lookup Record using ID
     function get_subscriber($db, $id) {
-        try {
-            $query = "SELECT * FROM subscribers WHERE id = :id";
-            $statement = $db->prepare($query);
-            $statement->bindValue(':id', $id);
-            $statement->execute();
-            $record = $statement->fetch();
-            $statement->closeCursor();
-            return $record;
-        } catch (PDOException $e) {
-            $error_message = $e->getMessage();
-            echo "<p>Error: $error_message</p>";
-            die();
-        }
-       
+        $query = "SELECT * FROM subscribers WHERE id = :id";
+        $statement = $db->prepare($query);
+        $statement->bindValue(':id', $id);
+        $statement->execute();
+        $record = $statement->fetch();
+        $statement->closeCursor();
+        return $record;
     }
        
 
     // Query for all subscribers
     function list_subscribers ($db) {
-       try {
-            $query = "SELECT * FROM subscribers";
-            $statement = $db->prepare($query);
-            $statement->execute();
-            return $statement->fetchAll();
-        } catch (PDOException $e) {
-            $error_message = $e->getMessage();
-            echo "<p>Error: $error_message</p>";
-            die();
-        }
-        
+        $query = "SELECT * FROM subscribers";
+        $statement = $db->prepare($query);
+        $statement->execute();
+        return $statement->fetchAll();
     }
 
 
     // Create a database connection
-    $dbname = 'uncobacs_subscribers';
-    $username = 'uncobacs_350';
-    $password = 'BACS_350';
-    $db = subscriber_database($dbname, $username, $password);
+    $db = subscriber_database();
 
 ?>
