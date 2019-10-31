@@ -20,7 +20,7 @@
                 <a href="https://shrinking-world.com/unc/bacs350/project/03">Project Instructions</a>
             </li>
             <li>
-                <a href="/bacs350/superhero">Superhero Gallery</a> by Mark Seaman
+                <a href="/bacs350/superhero">Superhero Gallery</a> by Devin Panikar
             </li>
         </ul>
 
