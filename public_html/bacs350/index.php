@@ -27,7 +27,7 @@
         
         <ul>
             <li>
-                <a href="https://shrinking-world.com/unc/bacs350">Sensei homepage</a>
+                <a href="https://shrinking-world.com/unc/bacs350">Class Homepage</a>
             </li>
             
             <li>
