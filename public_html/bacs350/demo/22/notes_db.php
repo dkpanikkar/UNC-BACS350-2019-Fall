@@ -5,7 +5,7 @@
     ------------------------------- */
 
     // Add a new record
-    function add_note($db, $title, $body, $date) {
+    function add_note($db, $title, $text, $date) {
         try {
             $query = "INSERT INTO notes (title, body, date) VALUES (:title, :body, :date);";
             $statement = $db->prepare($query);
@@ -75,33 +75,6 @@
     }
 
 
-    // Update the database
-    function update_note ($db, $id, $title, $body, $date) {
-        try {
-            // Modify database row
-            $query = "UPDATE notes SET title=:title, body=:body, date=:date WHERE id = :id";
-            $statement = $db->prepare($query);
-
-            $statement->bindValue(':id', $id);
-            $statement->bindValue(':title', $title);
-            $statement->bindValue(':body', $body);
-            $statement->bindValue(':date', $date);
-
-            $statement->execute();
-            $statement->closeCursor();
-
-            return true;
-        } catch (PDOException $e) {
-            $error_message = $e->getMessage();
-            echo "<p>Error: $error_message</p>";
-            die();
-        }
-        
-    }
-
-
-
-
     /* -------------------------------
         DATABASE CONNECT
     ------------------------------- */
@@ -121,9 +94,9 @@
 
     // Connect to the Bluehost database
     function bluehost_connect() {
-        $dbname = 'uncobacs_350';
-        $username = 'uncobacs_350';
-        $password = 'BACS_350';
+        $dbname = 'devinpan_350';
+        $username = 'devinpan';
+        $password = 'Goldhill02-05';
         $port = '3306';
         $host = "localhost:$port";
         return note_database($host, $dbname, $username, $password);
