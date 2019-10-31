@@ -3,7 +3,7 @@
 <h2>Sender</h2>
 <ul>
     <li><a href="index.php">Welcome no one</a></li>
-    <li><a href="index.php?name=Mark.Seaman">Welcome Mark</a></li>
+    <li><a href="index.php?name=Devin.Panikkar">Welcome Devin</a></li>
     <li><a href="index.php?name=Supervillain">Welcome Supervillain</a></li>
 </ul>
 
