@@ -3,8 +3,8 @@ body {
 }
 
 header {
-    border: 5px solid #F6B018;
-    background-color: #0E3D65;
+    border: 5px solid #000000;
+    background-color: #CD3210;
     font-family: sans-serif;
     padding: .5em;
 }
@@ -18,7 +18,7 @@ header a:hover {
 }
 
 header h1 {
-    color: #F6B018;
+    color: #87CEEB;
     border: none;
     padding: 0;
     margin: 20px 0;
@@ -28,7 +28,7 @@ header h1 {
 
 header h2 {
     color: white;
-    background-color: #0E3D65;
+    background-color: #CD3210;
     box-shadow: none;
     text-align: left;
     margin: 0;
@@ -43,23 +43,22 @@ header img {
 }
 
 h1 {
-    color: #0E3D65;
+    color: #5708A7;
 }
 
-/*h2 {*/
-/*    color: #F6B018;*/
-/*    border: 2px solid #F6B018;;*/
-/*}*/
+h2 {
+    color: #5708A7
+}
 
 pre {
-    border: 1px solid #0E3D65;
+    border: 1px solid #5708A7;
     padding: 1em;
     margin: 2em;
 }
 
 .card {
     margin: 20px;
-    border: 1px solid #0E3D65;
+    border: 1px solid #000000;
     width: 40%;
 }
 
@@ -67,5 +66,5 @@ pre {
     padding: 10px;
     font-weight: bold;
     color: white;
-    background-color: #0E3D65;
+    background-color: #CD3210;
 }
