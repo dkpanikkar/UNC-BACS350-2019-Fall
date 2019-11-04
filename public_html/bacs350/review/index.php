@@ -6,7 +6,7 @@
 
     // Button to go to other views
     $brain_button = render_button('Brain', '..');
-    $add_button = render_button('Add Review'. 'insert.php');
+    $add_button = render_button('Add Review', 'insert.php');
     $title = '<h2>Design Reviews</h2>';
 
     //  List the review records
