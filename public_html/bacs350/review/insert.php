@@ -6,7 +6,7 @@
     require_once 'review_db.php';
 
     //pick out the inputs fields: designer, url, report, score, date
-    $designer = filter_input(INPUt_GET, 'designer');
+    $designer = filter_input(INPUT_GET, 'designer');
     $url = filter_input(INPUT_GET , 'url');
     $report = filter_input(INPUT_GET, 'report');
     $score = filter_input(INPUT_GET, 'score');
@@ -26,4 +26,3 @@
             header("Location: index.php");
         };
     }
-?>
