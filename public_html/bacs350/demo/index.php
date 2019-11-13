@@ -105,8 +105,18 @@
                 <a href="27">Demo #27 - Component Templates</a>
             </li>
             <li>
-                <a href="28">Demo #28 - MVC Pattern</a>
+                <a href="29">Demo #29 - Complex Views</a>
             </li>
+            <li>
+                <a href="30">Demo #30 - MVC Patterns</a>
+            </li>
+            <li>
+                <a href="31">Demo #31 - Slides</a>
+            </li>
+            <li>
+                <a href="32">Demo #32 - Notes MVC</a>
+            </li>
+            
         </ul>
     ';
 
