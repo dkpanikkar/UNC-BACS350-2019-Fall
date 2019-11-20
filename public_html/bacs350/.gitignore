@@ -1,0 +1,4 @@
+*.pyc
+*.sql
+
+secret_settings.php
