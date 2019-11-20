@@ -54,6 +54,8 @@
         </ul>
     ';
 
+
+
     include 'views.php';
     
     echo render_page($site_title, $page_title, $content);
